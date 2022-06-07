@@ -1,10 +1,10 @@
 # Laba9_report
-###Подготовка к работе
+##Подготовка к работе
 ```
 $ git remote remove origin
 $ git remote add origin https://github.com/NeAlien/Laba9_report
 ```
-###Создаём ключ шифрования
+##Создаём ключ шифрования
 
 
 ```
@@ -20,19 +20,19 @@ $ gpg --armor --export ${GPG_KEY_ID} #вывод ключа в текстово�
 $ git config user.signingkey ${GPG_SEC_KEY_ID}
 $ git config gpg.program gpg
 ```
-###Создаём архив
+##Создаём архив
 ```
 sh
 $ cmake -H. -B_build -DCPACK_GENERATOR="TGZ"
 $ cmake --build _build --target package
 ```
-###Создаем тэг и пушим его
+##Создаем тэг и пушим его
 ```
 $ git tag -s v0.1.0.0 #-s make a GPG-signed tag, using the default e-mail address’s key (создает тэг использующий gpg-ключ)
 $ git tag -v v0.1.0.0 #-v verify the GPG signature of the given tag names (выводит информацию о тэге и подписи)
 $ git push origin master --tags
 ```
-###Проверяем, что релиз загрузился
+##Проверяем, что релиз загрузился
 ```
 $ tar -ztf ${PACKAGE_FILENAME}
 ```
