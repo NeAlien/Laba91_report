@@ -1,0 +1,3 @@
+/home/nealien/Laba3/solver_lib/build3/CMakeFiles/rebuild_cache.dir
+/home/nealien/Laba3/solver_lib/build3/CMakeFiles/edit_cache.dir
+/home/nealien/Laba3/solver_lib/build3/CMakeFiles/solver.dir
