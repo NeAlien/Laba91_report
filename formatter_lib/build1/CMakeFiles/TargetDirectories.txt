@@ -1,0 +1,3 @@
+/home/nealien/Laba3/formatter_lib/build1/CMakeFiles/rebuild_cache.dir
+/home/nealien/Laba3/formatter_lib/build1/CMakeFiles/edit_cache.dir
+/home/nealien/Laba3/formatter_lib/build1/CMakeFiles/formatter.dir

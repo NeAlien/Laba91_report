@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nealien/Laba3/formatter_lib/formatter.cpp
+formatter.h
+/home/nealien/Laba3/formatter_lib/formatter.h
+
+/home/nealien/Laba3/formatter_lib/formatter.h
+string
+-
+
